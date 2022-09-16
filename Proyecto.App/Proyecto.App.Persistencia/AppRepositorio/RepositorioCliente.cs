@@ -13,16 +13,17 @@ namespace Proyecto.App.Persistencia
     public class RepositorioCliente : IRepositorioCliente   //no es herencia QUIERE DECIR QUE IMPLEMENTA
     
     {
-        private readonly AppContext _appContext;    //creo una instancia de la Entidad AppContext para usarla en adelante
+        private readonly AppContext _appContext; 
+        
 
         public RepositorioCliente (AppContext contexto) 
         {
             _appContext = contexto;
-        }   
-
+        }  
+        
         IEnumerable<Cliente> IRepositorioCliente.ObtenerTodosClientes()
         {
-            return _appContext.Clientes;   //Aqui digo: Conextarse con la base de datos y traerme la tabla Clientes
+          return _appContext.Clientes;   //Aqui digo: Conextarse con la base de datos y traerme la tabla Clientes
             //El nombre de la tabla en la base de datos por eso esta en plural
 
         }
@@ -77,6 +78,8 @@ namespace Proyecto.App.Persistencia
         {
             return _appContext.Clientes.FirstOrDefault(c => c.PersonaId ==id);
             
-        }       
+        } 
+
+          
     }
 }

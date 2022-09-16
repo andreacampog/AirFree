@@ -10,7 +10,7 @@ namespace Proyecto.App.Persistencia
         void Eliminar(int id);
         Cliente ObtenerPorId (int id);
         IEnumerable <Cliente> ObtenerTodosClientes();
-
+      
     }
 }
 
