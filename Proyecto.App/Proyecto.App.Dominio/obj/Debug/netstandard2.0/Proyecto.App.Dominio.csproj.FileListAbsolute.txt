@@ -1,0 +1,9 @@
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\obj\Debug\netstandard2.0\Proyecto.App.Dominio.csprojAssemblyReference.cache
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\obj\Debug\netstandard2.0\Proyecto.App.Dominio.AssemblyInfoInputs.cache
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\obj\Debug\netstandard2.0\Proyecto.App.Dominio.AssemblyInfo.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\obj\Debug\netstandard2.0\Proyecto.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\bin\Debug\netstandard2.0\Proyecto.App.Dominio.deps.json
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\bin\Debug\netstandard2.0\Proyecto.App.Dominio.dll
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\bin\Debug\netstandard2.0\Proyecto.App.Dominio.pdb
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\obj\Debug\netstandard2.0\Proyecto.App.Dominio.dll
+C:\Proyecto\Proyecto.App\Proyecto.App.Dominio\obj\Debug\netstandard2.0\Proyecto.App.Dominio.pdb

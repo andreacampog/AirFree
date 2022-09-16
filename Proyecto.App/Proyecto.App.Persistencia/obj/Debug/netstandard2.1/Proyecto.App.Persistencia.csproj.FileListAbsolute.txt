@@ -1,0 +1,12 @@
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\bin\Debug\netstandard2.1\Proyecto.App.Persistencia.deps.json
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\bin\Debug\netstandard2.1\Proyecto.App.Persistencia.dll
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\bin\Debug\netstandard2.1\Proyecto.App.Persistencia.pdb
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\bin\Debug\netstandard2.1\Proyecto.App.Dominio.dll
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\bin\Debug\netstandard2.1\Proyecto.App.Dominio.pdb
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\obj\Debug\netstandard2.1\Proyecto.App.Persistencia.csprojAssemblyReference.cache
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\obj\Debug\netstandard2.1\Proyecto.App.Persistencia.AssemblyInfoInputs.cache
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\obj\Debug\netstandard2.1\Proyecto.App.Persistencia.AssemblyInfo.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\obj\Debug\netstandard2.1\Proyecto.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\obj\Debug\netstandard2.1\Proyecto.App.Persistencia.csproj.CopyComplete
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\obj\Debug\netstandard2.1\Proyecto.App.Persistencia.dll
+C:\Proyecto\Proyecto.App\Proyecto.App.Persistencia\obj\Debug\netstandard2.1\Proyecto.App.Persistencia.pdb

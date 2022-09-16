@@ -1,0 +1,48 @@
+
+/*  Este estilo se crea para decir: TODO EL CUERPO VA CON FONDO AZUL*/
+body
+{
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   
+}
+/*  Este estilo se crea para decir: TODOS LOSO HEADING VAN CON COLOR AZUL LAS FUENTES*/
+h3,h4 
+{
+    color: blue;
+    text-align: center;
+}
+/*  Este estilo se crea para decir: TODOS LOS PARRAFOS VAN CON REBECCAPURPLE LAS FUENTES */
+p
+{
+    color:rebeccapurple;
+}
+
+table, th, td
+    {
+        margin:0 auto;
+        border: 3px solid cornflowerblue;
+     
+
+        
+    }
+
+input
+    {
+
+        width: 70%;
+    }
+
+    .radios{ 
+
+        width: 5%;
+
+    }
+
+    .boton{
+        width: 20%;      
+        border: 0;
+        background-color: lightblue;
+       
+    }

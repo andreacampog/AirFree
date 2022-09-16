@@ -1,0 +1,16 @@
+﻿@page
+@model Proyecto.App.Presentacion.Pages.ListadoClienteModel
+@{
+    <h1>Listado Clientes</h1>
+      <table class = "table">
+        @foreach (var cliente in Model.lista_clientes) 
+        {
+            <tr>
+                <td>
+                    @cliente.Nombre +@cliente.Apellido 
+                </td>
+
+            </tr>
+        }
+        </table>
+}
