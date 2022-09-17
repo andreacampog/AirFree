@@ -208,37 +208,39 @@ namespace Proyecto.App.Consola
         
          private static void AgregarCita()
         {
-            var log = new Login{Usuario = "tecnico", Contraseña = "05550"}; 
-            var horario = new Horario{Fecha = new DateTime(2022, 11,10) };
-            TipoServicio mymant = TipoServicio.Mantenimiento;      
+            var log = new Login{Usuario = "", Contraseña = "05550"}; 
+            var horario = new Horario{Fecha = new DateTime(2022,1,10,5,0,0) ,Hora = new DateTime(2022,1,10,9,0,0) };
+            TipoServicio mymant = TipoServicio.Reparacion;     
+             
             var cliente = new Cliente{
-                Nombre          = "Cliente agregado ",
-                Apellido        = "desde citas",
-                Direccion       = "Diagonal 10 #2-48",
+                Nombre          = "Maria Elissa ",
+                Apellido        = "Gomez Paz",
+                Direccion       = "Calle 5 #10 -12",
                 Telefono        = "3002239841",
-                Correo          = "cliente4@hotmail.com" ,
+                Correo          = "maria_elissa4@hotmail.com" ,
                 Genero          = Genero.Femenino,
-                Edad            = "50",
+                Edad            = "25",
                 Administrador   = 0,  //RECORDAR AQUI PONER TIPO bool NO RECORDABA COMO HACERLO EN C# PORQUE LO TENGO INT 
                 Login           = log,
-                Membresia       = 0
+                Membresia       = 1
             };
 
             var tecnico      =   new Tecnico{                
-                Nombre          = "Creacion Tecnico2",   
-                Apellido        = "Lopez Diaz",
-                Direccion       = "Carrera 3 #1-52",
-                Telefono        = "398746478",
-                Correo          = "tecnico@hotmail.com" ,
+                Nombre          = "Andres",   
+                Apellido        = "Hoyos",
+                Direccion       = "Carrera 30 #21-10",
+                Telefono        = "3156321476",
+                Correo          = "andres@gmail.com" ,
                 Genero          = Genero.Masculino,
-                Edad            = "36",
-                Administrador   = 10, 
+                Edad            = "20",
+                Administrador   = 0, 
                 Login           = log,
-                NumeroRegistro  = "123456",
-                Horario         = horario
+                NumeroRegistro  = "56987412",
+                Horario         =horario    
+                        
               
             };
-               var cita = new Cita {Descripcion= "Aqui esta la descripcion", Cliente= cliente, Tecnico= tecnico, Servicio= mymant} ;           
+               var cita = new Cita {Descripcion= "Se daño el sistema por interrupcion de energía", Cliente= cliente, Tecnico= tecnico, Servicio= mymant} ;           
             
             _repoCita.Agregar(cita);
         }

@@ -1,0 +1,52 @@
+﻿@page
+@model Proyecto.App.Presentacion.Pages.ListarModel
+@{
+}
+
+
+<h1>Listado Clientes</h1>
+<table class= "table">
+    <thead>
+        <tr>
+            <th>ClienteId</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Correo</th>
+            <th>Edad</th>
+            <th>Genero</th>
+            <th>Membresia</th>
+
+            <th>Borrar</th>
+            <th>Editar</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var cliente in Model.lista_clientes) 
+        {
+            <tr>
+                <td>@cliente.PersonaId</td>
+                <td>@cliente.Nombre</td>>
+                <td>@cliente.Apellido</td>
+                <td>@cliente.Direccion</td>
+                <td>@cliente.Telefono</td>
+                <td>@cliente.Correo</td>
+                <td>@cliente.Edad</td>
+                <td>@cliente.Genero</td>
+                <td>@cliente.Membresia</td>
+                <td>                    
+                    <a class = "btn btn-danger" asp-page=".\Borrar" asp/route/id)="@cliente.PersonaId">Borrar</a></td>
+                <td>
+                    <a class = "btn btn-info" asp-page=".\Editar" asp/route/id)="@cliente.PersonaId">Editar</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br>
+<br>
+
+<td>
+    <a class="btn btn-success" asp-page=".\Crear">Crear Cliente</a>
+</td>

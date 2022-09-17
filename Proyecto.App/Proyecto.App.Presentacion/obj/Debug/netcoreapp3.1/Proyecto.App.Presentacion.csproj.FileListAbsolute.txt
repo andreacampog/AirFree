@@ -36,9 +36,7 @@ C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Proye
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Proyecto.App.Presentacion.genruntimeconfig.cache
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Proyecto.App.Presentacion.csproj.CopyComplete
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FormularioCliente.cshtml.g.cs
-C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Listados\ListadoCliente.cshtml.g.cs
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Formularios\FormularioTecnico.cshtml.g.cs
-C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Listados\ListadosTecnico.cshtml.g.cs
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -83,3 +81,15 @@ C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\bin\Debug\netcoreapp3.1\Proye
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\bin\Debug\netcoreapp3.1\Proyecto.App.Persistencia.dll
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\bin\Debug\netcoreapp3.1\Proyecto.App.Persistencia.pdb
 C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\bin\Debug\netcoreapp3.1\Proyecto.App.Dominio.pdb
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\Borrar.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\Crear.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\Editar.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cliente\Listar.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\ListarTecnico.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\BorrarTecnico.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\CrearTecnico.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Tecnico\EditarTecnico.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cita\ListarCita.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cita\BorrarCita.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cita\CrearCita.cshtml.g.cs
+C:\Proyecto\Proyecto.App\Proyecto.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Cita\EditarCita.cshtml.g.cs

@@ -11,7 +11,7 @@ namespace Proyecto.App.Persistencia
     void Eliminar (int id);
     Persona ObtenerPorId(int id);
     // Este es como devolver una lista: IEnumerabe es una estructura RECORDARLO ANDREA!!!
-    IEnumerable<Persona> ObtenerTodos(); 
+    IEnumerable<Persona> ObtenerTodos();     
 
     }
 

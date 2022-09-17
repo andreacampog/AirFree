@@ -1,0 +1,51 @@
+﻿@page
+@model Proyecto.App.Presentacion.Pages.ListarTecnicoModel
+@{
+}
+
+<h1>Listado de Tecnicos</h1>
+<table class = "table">
+    <head>
+        <tr>
+            <th>TecnicoId</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Correo</th>
+            <th>Edad</th>
+            <th>Genero</th>
+            <th>NumeroRegistro</th>
+            <th>Horario</th>
+
+        </tr>
+    </head>
+
+    <tbody>
+        @foreach (var tecnico in Model.lista_tecnicos) /*lista_tecnicos es la variable que puse en el listar.cshtml.cs */
+        {
+            <tr>
+                <td>@tecnico.PersonaId</td>
+                <td>@tecnico.Nombre</td>
+                <td>@tecnico.Apellido</td>
+                <td>@tecnico.Direccion</td>
+                <td>@tecnico.Telefono</td>
+                <td>@tecnico.Correo</td>
+                <td>@tecnico.Edad</td>
+                <td>@tecnico.Genero</td>
+                <td>@tecnico.NumeroRegistro</td>
+                <td>@tecnico.Horario</td>
+
+                <td>                    
+                    <a class = "btn btn-danger" asp-page=".\BorrarTecnico" asp/route/id)="@tecnico.PersonaId">Borrar</a></td>
+                <td>
+                    <a class = "btn btn-info" asp-page=".\EditarTecnico" asp/route/id)="@tecnico.PersonaId">Editar</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+<td>
+    <a class="btn btn-success" asp-page=".\CrearTecnico">Crear Tecnico</a>
+</td>
+

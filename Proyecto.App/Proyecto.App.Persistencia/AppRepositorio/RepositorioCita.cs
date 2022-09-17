@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Proyecto.App.Persistencia
 {       
- 
     
     public class RepositorioCita : IRepositorioCita  
     
@@ -20,10 +19,22 @@ namespace Proyecto.App.Persistencia
 
         IEnumerable<Cita> IRepositorioCita.ObtenerTodas()
         {
-            return _appContext.Citas;   //Aqui digo: Conextarse con la base de datos y traerme la tabla Clientes
+            return _appContext.Citas.Select(c => new Cita
+            {
+                CitaId = c.CitaId,
+                Descripcion= c.Descripcion,
+                Cliente = c.Cliente,
+                Tecnico = c.Tecnico,
+                Servicio = c.Servicio                
+            }).ToList();
+            
+            //Aqui digo: Conextarse con la base de datos y traerme la tabla Citas
             //El nombre de la tabla en la base de datos por eso esta en plural
 
         }
+
+
+        
         
         Cita IRepositorioCita.Agregar(Cita citanueva)
         {

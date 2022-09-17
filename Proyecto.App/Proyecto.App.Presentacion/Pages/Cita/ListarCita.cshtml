@@ -1,0 +1,40 @@
+﻿@page
+@model Proyecto.App.Presentacion.Pages.ListarCitaModel
+@{
+}
+
+<h1>Listado Citas</h1>
+<table class = "table"> 
+    <head>
+
+        <tr>
+            <th>Cita id</th>
+            <th>Descripcion</th>
+            <th>Cliente</th>
+            <th>Tecnico</th>
+            <th>Servicio</th>       
+        </tr>
+    </head>
+
+    <tbody>
+        @foreach (var cita in Model.lista_citas)
+        {           
+            <tr>
+                <td>@cita.CitaId</td>
+                <td>@cita.Descripcion</td>
+                <td>@cita.Cliente.Nombre  @cita.Cliente.Apellido</td>
+                <td>@cita.Tecnico.Nombre  @cita.Tecnico.Apellido</td>
+                <td>@cita.Servicio</td>
+                <td>                    
+                    <a class = "btn btn-danger" asp-page=".\BorrarCita" asp/route/id)="@cita.CitaId">Borrar</a></td>
+                <td>
+                    <a class = "btn btn-info" asp-page=".\EditarCita" asp/route/id)="@cita.CitaId">Editar</a></td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+
+<td>
+    <a class="btn btn-success" asp-page=".\CrearCita">Crear Cita</a>
+</td>

@@ -22,6 +22,11 @@ namespace Proyecto.App.Persistencia
             return _appContext.Personas;  //El nombre de la tabla en la base de datos 
 
         }
+
+        //IEnumerable<Persona> IRepositorioPersona.GetPersonaTecnico();
+        //{
+          //  return _appContext.Personas.Where(p=> p.Disc)
+        //}
         
         Persona IRepositorioPersona.Agregar(Persona personanueva)
         {

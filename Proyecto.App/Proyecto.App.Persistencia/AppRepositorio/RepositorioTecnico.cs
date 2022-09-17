@@ -20,8 +20,23 @@ namespace Proyecto.App.Persistencia
 
         IEnumerable<Tecnico> IRepositorioTecnico.ObtenerTodos()
         {
-            return _appContext.Tecnicos;   //Aqui digo: Conextarse con la base de datos y traerme la tabla Clientes
-            //El nombre de la tabla en la base de datos por eso esta en plural
+            return _appContext.Tecnicos.Select(t => new Tecnico
+            {
+                PersonaId = t.PersonaId,
+                Nombre= t.Nombre,
+                Apellido = t.Apellido,
+                Direccion = t.Direccion,
+                Telefono = t.Telefono,                
+                Correo= t.Correo,
+                Edad= t.Edad,
+                Genero= t.Genero,
+                Administrador =t.Administrador,
+                Login = t.Login,
+                NumeroRegistro= t.NumeroRegistro,
+                Horario = t.Horario
+
+            }).ToList();;   //Aqui digo: Conextarse con la base de datos y traerme la tabla Tecnico
+            //El nombre de la tabla en la base de datos por eso esta en plural;
 
         }
         
